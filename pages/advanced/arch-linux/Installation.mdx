@@ -1,0 +1,107 @@
+---
+title: Arch Linux Installation Guide
+---
+
+# Arch Linux Installation Guide
+
+## Beginning
+
+### 1. Pre-installation
+
+#### 1.1 Acquire an Installation Image
+
+Visit the [Download page](https://archlinux.org/download/) and obtain the ISO file or netboot image along with the respective GnuPG signature.
+
+#### 1.2 Verify Signature
+
+It is recommended to verify the image signature before use, especially when downloading from an HTTP mirror. Use `gpg` to verify the signature.
+
+#### 1.3 Prepare an Installation Medium
+
+Prepare a bootable USB drive, optical disc, or network boot using the ISO file or netboot image.
+
+#### 1.4 Boot the Live Environment
+
+Boot the installation medium and enter the live environment.
+
+#### 1.5 Set the Console Keyboard Layout and Font
+
+Set the keyboard layout and font using `loadkeys` and `setfont` commands.
+
+#### 1.6 Verify the Boot Mode
+
+Check the UEFI bitness to verify the boot mode.
+
+#### 1.7 Connect to the Internet
+
+Connect to the internet using Ethernet, Wi-Fi, or mobile broadband modem.
+
+#### 1.8 Update the System Clock
+
+Ensure the system clock is accurate using `timedatectl`.
+
+#### 1.9 Partition the Disks
+
+Identify disks and partitions using `lsblk` or `fdisk`. Plan and create partitions according to your needs.
+
+#### 1.10 Format the Partitions
+
+Format the partitions with appropriate file systems using `mkfs`.
+
+#### 1.11 Mount the File Systems
+
+Mount the root volume and any additional partitions under `/mnt`.
+
+## Installation
+
+### 2. Select the Mirrors
+
+Choose mirror servers for package installation and update `/etc/pacman.d/mirrorlist` accordingly.
+
+### 3. Install Essential Packages
+
+Use `pacstrap` to install base, Linux kernel, and firmware packages.
+
+## Configure the System
+
+### 3.1 Fstab
+
+Generate an `fstab` file using `genfstab`.
+
+### 3.2 Chroot
+
+Change root into the new system using `arch-chroot`.
+
+### 3.3 Time
+
+Set the time zone and synchronize the hardware clock.
+
+### 3.4 Localization
+
+Generate locales and set language preferences.
+
+### 3.5 Network Configuration
+
+Configure network settings including hostname and network management software.
+
+### 3.6 Initramfs
+
+Create or modify initramfs for LVM, system encryption, or RAID.
+
+### 3.7 Root Password
+
+Set the root password.
+
+### 3.8 Boot Loader
+
+Choose and install a boot loader.
+
+## 4. Reboot
+
+Exit chroot environment, unmount partitions, and restart the system.
+
+## 5. Post-installation
+
+Follow post-installation recommendations for system management and application setup.
+
+This guide provides a concise overview of the Arch Linux installation process. Refer to the ArchWiki for detailed instructions and additional resources.

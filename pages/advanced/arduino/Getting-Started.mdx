@@ -1,0 +1,48 @@
+---
+title: Getting Started with Arduino
+---
+
+# Getting Started with Arduino
+
+Arduino is an open-source electronics platform based on easy-to-use hardware and software. It's great for beginners and experienced users alike who want to create interactive projects. This guide will walk you through the basics of getting started with Arduino, focusing on popular boards like the Arduino Mega 2560, ESP32, ATmega328P, and ATtiny85.
+
+## What You'll Need
+
+Before you begin, you'll need the following:
+
+- Arduino boards: Arduino Mega 2560, ESP32, ATmega328P, and ATtiny85
+- USB cables to connect the Arduino boards to your computer
+- The Arduino IDE (Integrated Development Environment), which you can download from the [Arduino website](https://www.arduino.cc/en/software)
+
+## Setting Up the Arduino IDE
+
+1. **Download and Install**: Download the Arduino IDE from the official website and follow the installation instructions for your operating system.
+
+2. **Connect Your Arduino Board**: Connect your Arduino board to your computer using the USB cable. Make sure to select the appropriate board from the list (e.g., "Arduino Mega 2560", "ESP32", "ATmega328P", "ATtiny85").
+
+3. **Select Your Port**: Go to `Tools > Port` and select the port to which your Arduino board is connected. On Windows, it will typically be something like `COM3`, `COM4`, etc. On macOS, it will be something like `/dev/cu.usbmodemXXXX`.
+
+## Uploading Your First Sketch
+
+Now that you've set up the Arduino IDE, let's upload a simple blink sketch to each of the Arduino boards:
+
+### ATmega328P (Arduino Uno)
+
+1. Open the Arduino IDE and select "Arduino Uno" from the `Tools > Board` menu.
+2. Open the "Blink" example sketch from `File > Examples > 01.Basics > Blink`.
+3. Click the "Upload" button to compile the sketch, but **do not click** "Upload".
+4. Go to `Sketch > Upload Using Programmer`. This will upload the sketch to your Arduino Uno using the Arduino Mega as an ISP programmer.
+
+### ATtiny85
+
+1. To program the ATtiny85, you'll need to follow a special process using an Arduino Mega as an ISP programmer.
+2. Open the Arduino IDE and select "ATtiny85" from the `Tools > Board` menu.
+3. Open the "Blink" example sketch from `File > Examples > 01.Basics > Blink`.
+4. Click the "Upload" button to compile the sketch, but **do not click** "Upload".
+5. Go to `Sketch > Upload Using Programmer`. This will upload the sketch to your ATtiny85 using the Arduino Mega as an ISP programmer.
+
+## Additional Resources
+
+- [Arduino Official Website](https://www.arduino.cc/)
+- [Arduino Documentation](https://www.arduino.cc/en/Guide/HomePage)
+- [Arduino Forum](https://forum.arduino.cc/)

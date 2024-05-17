@@ -1,0 +1,68 @@
+.
+├── components
+│   ├── counters.module.css
+│   └── counters.tsx
+├── LICENSE
+├── new.txt
+├── next.config.js
+├── next-env.d.ts
+├── node_modules
+│   ├── @babel
+│   │   └── eslint-parser -> ../.pnpm/@babel+eslint-parser@7.24.5_@babel+core@7.24.5_eslint@7.32.0/node_modules/@babel/eslint-parser
+│   ├── babel-eslint -> .pnpm/babel-eslint@10.1.0_eslint@7.32.0/node_modules/babel-eslint
+│   ├── @eslint
+│   │   └── eslintrc -> ../.pnpm/@eslint+eslintrc@0.4.3/node_modules/@eslint/eslintrc
+│   ├── eslint -> .pnpm/eslint@7.32.0/node_modules/eslint
+│   ├── @eslint-community
+│   │   ├── eslint-utils -> ../.pnpm/@eslint-community+eslint-utils@4.4.0_eslint@7.32.0/node_modules/@eslint-community/eslint-utils
+│   │   └── regexpp -> ../.pnpm/@eslint-community+regexpp@4.10.0/node_modules/@eslint-community/regexpp
+│   ├── eslint-config-react-app -> .pnpm/eslint-config-react-app@6.0.0_@typescript-eslint+eslint-plugin@5.62.0_@typescript-eslint+pars_swnwwgvpuxa7sokw43m4pjvd7m/node_modules/eslint-config-react-app
+│   ├── eslint-import-resolver-node -> .pnpm/eslint-import-resolver-node@0.3.9/node_modules/eslint-import-resolver-node
+│   ├── eslint-module-utils -> .pnpm/eslint-module-utils@2.8.1_@typescript-eslint+parser@5.62.0_eslint@7.32.0_typescript@4.9.3__es_3watfg5a5htuxntal6ihfvmqqq/node_modules/eslint-module-utils
+│   ├── eslint-plugin-flowtype -> .pnpm/eslint-plugin-flowtype@5.10.0_eslint@7.32.0/node_modules/eslint-plugin-flowtype
+│   ├── eslint-plugin-import -> .pnpm/eslint-plugin-import@2.29.1_@typescript-eslint+parser@5.62.0_eslint@7.32.0_typescript@4.9.3__eslint@7.32.0/node_modules/eslint-plugin-import
+│   ├── eslint-plugin-jsx-a11y -> .pnpm/eslint-plugin-jsx-a11y@6.8.0_eslint@7.32.0/node_modules/eslint-plugin-jsx-a11y
+│   ├── eslint-plugin-react -> .pnpm/eslint-plugin-react@7.34.1_eslint@7.32.0/node_modules/eslint-plugin-react
+│   ├── eslint-plugin-react-hooks -> .pnpm/eslint-plugin-react-hooks@4.6.2_eslint@7.32.0/node_modules/eslint-plugin-react-hooks
+│   ├── eslint-scope -> .pnpm/eslint-scope@5.1.1/node_modules/eslint-scope
+│   ├── eslint-utils -> .pnpm/eslint-utils@2.1.0/node_modules/eslint-utils
+│   ├── eslint-visitor-keys -> .pnpm/eslint-visitor-keys@2.1.0/node_modules/eslint-visitor-keys
+│   ├── eslint-webpack-plugin -> .pnpm/eslint-webpack-plugin@2.7.0_eslint@7.32.0_webpack@5.91.0/node_modules/eslint-webpack-plugin
+│   ├── gatsby -> .pnpm/gatsby@5.13.4_babel-eslint@10.1.0_eslint@7.32.0__react-dom@18.2.0_react@18.2.0__react@18.2.0__hu72sz22uqtj7suwce2rwuqspi/node_modules/gatsby
+│   ├── next -> .pnpm/next@13.0.6_@babel+core@7.24.5_react-dom@18.2.0_react@18.2.0__react@18.2.0/node_modules/next
+│   ├── nextra -> .pnpm/nextra@2.2.14_next@13.0.6_@babel+core@7.24.5_react-dom@18.2.0_react@18.2.0__react@18.2.0__rea_noch5kafh7lpv22zslal6pwb7m/node_modules/nextra
+│   ├── nextra-theme-docs -> .pnpm/nextra-theme-docs@2.2.14_next@13.0.6_@babel+core@7.24.5_react-dom@18.2.0_react@18.2.0__react@_qgmozypxgro5yfq3ul7eyijvfa/node_modules/nextra-theme-docs
+│   ├── @nicolo-ribaudo
+│   │   └── eslint-scope-5-internals -> ../.pnpm/@nicolo-ribaudo+eslint-scope-5-internals@5.1.1-v1/node_modules/@nicolo-ribaudo/eslint-scope-5-internals
+│   ├── react -> .pnpm/react@18.2.0/node_modules/react
+│   ├── react-dom -> .pnpm/react-dom@18.2.0_react@18.2.0/node_modules/react-dom
+│   ├── @types
+│   │   ├── eslint -> ../.pnpm/@types+eslint@7.29.0/node_modules/@types/eslint
+│   │   ├── eslint-scope -> ../.pnpm/@types+eslint-scope@3.7.7/node_modules/@types/eslint-scope
+│   │   └── node -> ../.pnpm/@types+node@18.11.10/node_modules/@types/node
+│   ├── typescript -> .pnpm/typescript@4.9.3/node_modules/typescript
+│   └── @typescript-eslint
+│       ├── eslint-plugin -> ../.pnpm/@typescript-eslint+eslint-plugin@5.62.0_@typescript-eslint+parser@5.62.0_eslint@7.32.0_typesc_hxpwozar6spdm6mlbyu6ofczg4/node_modules/@typescript-eslint/eslint-plugin
+│       ├── parser -> ../.pnpm/@typescript-eslint+parser@5.62.0_eslint@7.32.0_typescript@4.9.3/node_modules/@typescript-eslint/parser
+│       ├── scope-manager -> ../.pnpm/@typescript-eslint+scope-manager@5.62.0/node_modules/@typescript-eslint/scope-manager
+│       ├── types -> ../.pnpm/@typescript-eslint+types@5.62.0/node_modules/@typescript-eslint/types
+│       ├── typescript-estree -> ../.pnpm/@typescript-eslint+typescript-estree@5.62.0_typescript@4.9.3/node_modules/@typescript-eslint/typescript-estree
+│       ├── type-utils -> ../.pnpm/@typescript-eslint+type-utils@5.62.0_eslint@7.32.0_typescript@4.9.3/node_modules/@typescript-eslint/type-utils
+│       ├── utils -> ../.pnpm/@typescript-eslint+utils@5.62.0_eslint@7.32.0_typescript@4.9.3/node_modules/@typescript-eslint/utils
+│       └── visitor-keys -> ../.pnpm/@typescript-eslint+visitor-keys@5.62.0/node_modules/@typescript-eslint/visitor-keys
+├── package.json
+├── pages
+│   ├── about.mdx
+│   ├── advanced
+│   │   ├── arch-linux.mdx
+│   │   └── arduino.mdx
+│   ├── advanced.mdx
+│   ├── another.mdx
+│   ├── index.mdx
+│   └── _meta.json
+├── pnpm-lock.yaml
+├── README.md
+├── theme.config.tsx
+└── tsconfig.json
+
+48 directories, 18 files
