@@ -9,7 +9,7 @@ const config: DocsThemeConfig = {
   chat: {
     link: 'https://discord.com/invite/gmpwKA48',
   },
-  docsRepositoryBase: 'https://github.com/shuding/nextra-docs-template',
+  docsRepositoryBase: 'https://github.com/butasi/documentation-kit',
   footer: {
     text: 'Project Documentation',
   },
